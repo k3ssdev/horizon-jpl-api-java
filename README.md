@@ -1,4 +1,4 @@
-# Getting Started with the Horizon API
+# Getting Started with the Horizon API using Java
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -15,8 +15,8 @@ To query the Horizon API with Java, follow these steps:
 1. Make sure you have Java Development Kit (JDK) 8 or above installed.
 2. Clone this repository to your local machine.
 3. Open the project in your preferred Java development environment.
-4. Edit the `my_input_file.txt` file and customize the parameters based on your desired query.
-5. Run the `Main.java` class to send the Horizon API query and retrieve the data.
+4. Edit the `query_parameters.txt` file and customize the parameters based on your desired query.
+5. Run the `HorizonQuery.java` class to send the Horizon API query and retrieve the data.
 6. The results will be saved in the `results.txt` file.
 
 ## Python Example Program
@@ -27,7 +27,7 @@ An example program in Python is also provided for querying the Horizon API. Foll
 2. Open the `horizons.py` file.
 3. Customize the parameters in the file based on your desired query.
 4. Open a terminal or command prompt and navigate to the project directory.
-5. Run the program using the command `python horizons.py my_input_file.txt`.
+5. Run the program using the command `python horizons.py`.
 6. The results will be displayed in the console.
 
 ## Horizon API Documentation
