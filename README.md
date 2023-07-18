@@ -24,11 +24,10 @@ To query the Horizons API with Java, follow these steps:
 An example program in Python is also provided for querying the Horizons API. Follow these steps to run the program:
 
 1. Make sure you have Python installed on your machine.
-2. Open the `horizons.py` file.
-3. Customize the parameters in the file based on your desired query.
-4. Open a terminal or command prompt and navigate to the project directory.
-5. Run the program using the command `python horizons.py`.
-6. The results will be displayed in the console.
+2. Edit the `query_parameters.txt` file and customize the parameters based on your desired query.
+3. Open a terminal or command prompt and navigate to the project directory.
+4. Run the program using the command `python HorizonsQuery.py`.
+5. The results will be displayed in the console.
 
 ## Horizons API Documentation
 
