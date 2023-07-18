@@ -6,7 +6,9 @@ This project provides a solar system simulation utilizing the Horizons API for J
 
 ## About the Horizons API
 
-The Horizons API provides access to JPL's Horizonss system. To make use of the API, an input file must be created containing settings appropriate for the desired ephemeris results. Please refer to the Horizonss batch example/instructions for detailed information on the possible settings. Note that an alternate Horizonss API is also available, which uses the HTTP GET method to send Horizonss parameters as query parameters via the URL.
+The JPL Horizons on-line solar system data and ephemeris computation service provides access to key solar system data and flexible production of highly accurate ephemerides for solar system objects (1,299,227 asteroids, 3,881 comets, 290 planetary satellites {includes satellites of Earth and dwarf planet Pluto}, 8 planets, the Sun, L1, L2, select spacecraft, and system barycenters).
+
+To make use of the API, an input file must be created containing settings appropriate for the desired ephemeris results. Please refer to the Horizons batch example/instructions for detailed information on the possible settings. Note that an alternate Horizons API is also available, which uses the HTTP GET method to send Horizons parameters as query parameters via the URL.
 
 ## Java Horizons API Query
 
@@ -24,10 +26,11 @@ To query the Horizons API with Java, follow these steps:
 An example program in Python is also provided for querying the Horizons API. Follow these steps to run the program:
 
 1. Make sure you have Python installed on your machine.
-2. Edit the `query_parameters.txt` file and customize the parameters based on your desired query.
-3. Open a terminal or command prompt and navigate to the project directory.
-4. Run the program using the command `python HorizonsQuery.py`.
-5. The results will be displayed in the console.
+2. Open the `horizons.py` file.
+3. Customize the parameters in the file based on your desired query.
+4. Open a terminal or command prompt and navigate to the project directory.
+5. Run the program using the command `python horizons.py`.
+6. The results will be displayed in the console.
 
 ## Horizons API Documentation
 
@@ -37,9 +40,6 @@ For more information on the Horizons API and available parameters, refer to the 
 
 - [Horizons API Batch Interface](https://ssd-api.jpl.nasa.gov/doc/horizons_file.html): This batch interface documentation explains how to create an input file and customize the parameters for desired ephemeris results.
 
-- [Horizons API Documentation](https://ssd-api.jpl.nasa.gov/doc/horizons.html): This documentation provides detailed information on the Horizons API, including available queries and parameters.
-
-
 ## Contributing
 
 Contributions to this project are welcome! If you have any suggestions or improvements, please feel free to open an issue or submit a pull request.
@@ -47,4 +47,3 @@ Contributions to this project are welcome! If you have any suggestions or improv
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
