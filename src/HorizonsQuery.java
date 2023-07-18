@@ -10,7 +10,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HorizonQuery {
+public class HorizonsQuery {
     public static void main(String[] args) {
         String file_name = "query_parameters.txt"; // Nombre de archivo predeterminado
 
