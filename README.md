@@ -38,6 +38,8 @@ For more information on the Horizon API and available parameters, refer to the f
 
 - [Horizon API Batch Interface](https://ssd-api.jpl.nasa.gov/doc/horizons_file.html): This batch interface documentation explains how to create an input file and customize the parameters for desired ephemeris results.
 
+- [Horizon API Documentation](https://ssd-api.jpl.nasa.gov/doc/horizons.html): This documentation provides detailed information on the Horizon API, including available queries and parameters.
+
 
 ## Contributing
 
