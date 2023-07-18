@@ -36,7 +36,8 @@ public class HorizonsQuery {
             // Construir la URL de la solicitud con los parámetros
             String baseUrl = "https://ssd.jpl.nasa.gov/api/horizons.api";
             StringBuilder urlBuilder = new StringBuilder(baseUrl);
-            urlBuilder.append("?format=text");
+            //urlBuilder.append("?format=text"); // Formato de texto plano
+            urlBuilder.append("?format=json"); // Formato JSON
 
             for (String parameter : parameters) {
                 String[] parts = parameter.split("=");

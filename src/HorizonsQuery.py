@@ -6,7 +6,7 @@ def process_file(file_name):
         with open(file_name) as file:
             # Realizar la solicitud POST
             url = 'https://ssd.jpl.nasa.gov/api/horizons_file.api'
-            r = requests.post(url, data={'format': 'text'}, files={'input': file})
+            r = requests.post(url, data={'format': 'json'}, files={'input': file})
 
             # Guardar la respuesta en un archivo
             with open('results.txt', 'w') as output_file:
