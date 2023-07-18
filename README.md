@@ -1,27 +1,27 @@
-# Getting Started with the Horizon API using Java
+# Getting Started with the Horizons API using Java
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project provides a solar system simulation utilizing the Horizon API for Java and includes an example program in Python. It allows you to generate a simulation of the solar system and retrieve data using the Horizon API from NASA's Jet Propulsion Laboratory (JPL).
+This project provides a solar system simulation utilizing the Horizons API for Java and includes an example program in Python. It allows you to generate a simulation of the solar system and retrieve data using the Horizons API from NASA's Jet Propulsion Laboratory (JPL).
 
-## About the Horizon API
+## About the Horizons API
 
-The Horizon API provides access to JPL's Horizons system. To make use of the API, an input file must be created containing settings appropriate for the desired ephemeris results. Please refer to the Horizons batch example/instructions for detailed information on the possible settings. Note that an alternate Horizons API is also available, which uses the HTTP GET method to send Horizons parameters as query parameters via the URL.
+The Horizons API provides access to JPL's Horizonss system. To make use of the API, an input file must be created containing settings appropriate for the desired ephemeris results. Please refer to the Horizonss batch example/instructions for detailed information on the possible settings. Note that an alternate Horizonss API is also available, which uses the HTTP GET method to send Horizonss parameters as query parameters via the URL.
 
-## Java Horizon API Query
+## Java Horizons API Query
 
-To query the Horizon API with Java, follow these steps:
+To query the Horizons API with Java, follow these steps:
 
 1. Make sure you have Java Development Kit (JDK) 8 or above installed.
 2. Clone this repository to your local machine.
 3. Open the project in your preferred Java development environment.
 4. Edit the `query_parameters.txt` file and customize the parameters based on your desired query.
-5. Run the `HorizonQuery.java` class to send the Horizon API query and retrieve the data.
+5. Run the `HorizonsQuery.java` class to send the Horizons API query and retrieve the data.
 6. The results will be saved in the `results.txt` file.
 
 ## Python Example Program
 
-An example program in Python is also provided for querying the Horizon API. Follow these steps to run the program:
+An example program in Python is also provided for querying the Horizons API. Follow these steps to run the program:
 
 1. Make sure you have Python installed on your machine.
 2. Open the `horizons.py` file.
@@ -30,15 +30,15 @@ An example program in Python is also provided for querying the Horizon API. Foll
 5. Run the program using the command `python horizons.py`.
 6. The results will be displayed in the console.
 
-## Horizon API Documentation
+## Horizons API Documentation
 
-For more information on the Horizon API and available parameters, refer to the following documentation:
+For more information on the Horizons API and available parameters, refer to the following documentation:
 
-- [Horizon API Web Interface](https://ssd-api.jpl.nasa.gov/doc/horizons.html): This web interface provides an overview of the Horizon API, including available queries and parameters.
+- [Horizons API Web Interface](https://ssd-api.jpl.nasa.gov/doc/horizons.html): This web interface provides an overview of the Horizons API, including available queries and parameters.
 
-- [Horizon API Batch Interface](https://ssd-api.jpl.nasa.gov/doc/horizons_file.html): This batch interface documentation explains how to create an input file and customize the parameters for desired ephemeris results.
+- [Horizons API Batch Interface](https://ssd-api.jpl.nasa.gov/doc/horizons_file.html): This batch interface documentation explains how to create an input file and customize the parameters for desired ephemeris results.
 
-- [Horizon API Documentation](https://ssd-api.jpl.nasa.gov/doc/horizons.html): This documentation provides detailed information on the Horizon API, including available queries and parameters.
+- [Horizons API Documentation](https://ssd-api.jpl.nasa.gov/doc/horizons.html): This documentation provides detailed information on the Horizons API, including available queries and parameters.
 
 
 ## Contributing
