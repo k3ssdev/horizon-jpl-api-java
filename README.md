@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project provides a solar system simulation utilizing the Horizons API for Java and includes an example program in Python. It allows you to generate a simulation of the solar system and retrieve data using the Horizons API from NASA's Jet Propulsion Laboratory (JPL).
-
 ## About the Horizons API
 
 The JPL Horizons on-line solar system data and ephemeris computation service provides access to key solar system data and flexible production of highly accurate ephemerides for solar system objects (1,299,227 asteroids, 3,881 comets, 290 planetary satellites {includes satellites of Earth and dwarf planet Pluto}, 8 planets, the Sun, L1, L2, select spacecraft, and system barycenters).
